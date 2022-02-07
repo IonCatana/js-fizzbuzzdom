@@ -1,5 +1,34 @@
-*{
+/* Regole di resset */
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+body {
+  background-color: #083b4c;
+}
+
+/* Main Contain */
+#main-contain {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 1000px;
+}
+.number-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc((100% - 120px) / 7);
+  background-color: #1389b2;
+  padding: 40px;
+}
+.fizzbuzz-wrapper {
+  background-color: #f0466f;
+}
+.fizz-wrapper {
+  background-color: #0bd6a1;
+}
+.buzz-wrapper {
+  background-color: #ffd166;
 }
